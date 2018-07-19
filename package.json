@@ -1,0 +1,20 @@
+{
+  "name": "gen1",
+  "version": "1.0.0",
+  "description": "...in thhe beginng was a word",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "author": "Jakub Brockl",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^6.1.1",
+    "prisma": "^1.12.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
