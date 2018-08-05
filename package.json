@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "flow": "flow",
+    "start": "next start"
   },
   "author": "Jakub Brockl",
   "license": "ISC",
@@ -15,6 +17,16 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.56",
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-flow": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-beta.56",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "flow-bin": "^0.78.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0"
+  },
   "keywords": []
 }
